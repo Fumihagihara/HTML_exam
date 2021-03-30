@@ -4,6 +4,7 @@ html {
 }
 body {
   text-align: center;
+  height: 100%;
 }
 .main-header {
   position: relative;
@@ -65,6 +66,9 @@ header ul:after {
   background-color: #d1cdcd;
   height: 500px;
   width: 1500px;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 100px;
 }
 .function-images {
   height: 500px;
@@ -77,13 +81,14 @@ header ul:after {
 }
 /* ここまでがfunction部分の実装 */
 .footer {
-  width: 100%;
   height: 80px;
+  width: 100%;
   position: absolute;
   bottom: 0;
-  background-color: #363333;
-  color: white;
+  background-color: #171f3b;
 }
-/* footer部分の実装 */
+.footer p {
+  font-size: 1rem;
+  color: #fff;
 }
 /* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
